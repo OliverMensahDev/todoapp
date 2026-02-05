@@ -1,5 +1,6 @@
 import express from "express";
 import bodyParser from "body-parser";
+import "dotenv/config";
 
 import { MySQLTodoRepository } from "./infrastructure/repositories/MySQLTodoRepository";
 import { CreateTodo } from "./application/usecases/CreateTodo";
